@@ -1,0 +1,90 @@
+.first{
+    max-width: 25%;
+    margin: auto;
+    background-color: rgb(35, 42, 52);
+    border-radius: 20px;
+    padding: 2%;
+    color: white;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 700;
+} 
+
+#star{
+    background-color: rgb(38, 47, 56);
+    border-radius: 100%;
+    padding: 15px;
+}  
+
+p{
+    font-weight: 400;
+    opacity: 0.5;
+}
+
+#second{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{ 
+    height: 50px;
+    width: 50px;
+    color: white;
+    padding: 20px ;
+    border-radius: 100%;
+    background-color: rgb(38, 47, 56);
+    border: none;
+    cursor: pointer; 
+}
+
+input:hover{ 
+    background-color: rgb(124, 136, 152);
+}
+
+input:focus:not(:active){
+    background-color: rgb(254, 118, 16);
+} 
+
+#third{
+    display: flex;
+    justify-content: center;
+} 
+
+button{ 
+    color:white;
+    background-color: rgb(254, 118, 16);
+    cursor: pointer; 
+    border-radius: 100px;
+    border: none; 
+    padding: 15px 20px; 
+    flex-grow: 1;
+    transition: background-color .2s,background-position .2s; 
+}
+
+button:hover{
+    color:rgb(254, 118, 16);
+    background-color: white;
+} 
+
+#answer{
+    display: none;
+    text-align: center;
+}
+
+.paragraph{
+    background-color: rgb(54, 64, 74) ;
+    display: flex;
+    justify-content: center;
+    color: rgb(254, 118, 16) ;
+    padding: 5px 15px;
+    border-radius: 100px;  
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    opacity: 0.5;
+
+}
+
+#var{
+    font-family: 'Overpass', sans-serif;  
+    font-weight: 400; 
+    text-decoration: none;
+}
